@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href = "css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar background">
+        <ul class = "nav-list">
+            <div class="logo"><img src="img/logo.jpg" alt = "logo"></div>
+            <li><a href = "index.html">Home</a></li>
+            <li><a href = "aboutUs.html">About</a></li>
+            <li><a href = "services.html">Services</a></li>
+            <li><a href = "contactUs.html">Contact Us</a></li>
+        </ul>
+        <div class="rightNav">
+            <button class ="btn btn-sm">Book Appointment</button>
+        </div>
+    </nav>
+    <br>
+    <br>
+    <h1>Contact Us</h1>
+  <br>
+  <br>
+  <div class="containerr">
+    <div style="text-align:center">
+    </div>
+    <div class="row">
+      <div class="column1">
+        <img src="img/contactUs.jpg" style="width:100%">
+      </div>
+      <div class="column1">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">India</option>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div> 
+</body>
+</html>
